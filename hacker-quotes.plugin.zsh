@@ -1,4 +1,4 @@
-if [[ -o login && -o interactive ]]; then
+#if [[ -o interactive ]]; then
     hacker_quotes=(
         "Talk is cheap. Show me the code.\n ―  Linus Torvalds "
         "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.\n―  Linus Torvalds"
@@ -158,4 +158,4 @@ if [[ -o login && -o interactive ]]; then
     echo
     # release memory
     unset hacker_quotes
-fi
+#fi
